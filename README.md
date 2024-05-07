@@ -67,6 +67,10 @@ for i in range(10):
     previous_num = i
 ```
 ## webcame
+
+1.INSTALL FOLLOWING PACKAGES
+
+```OPENCV```
 ```
 import cv2
 # define a video capture object 
