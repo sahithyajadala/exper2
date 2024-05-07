@@ -58,3 +58,11 @@ with open(csv_file, 'r') as file:
         full_image_with_boxes = draw_boxes(image, boxes)
         full_image_with_boxes.save(os.path.join(output_dir, f"full_{image_name}"))
 ```
+## iteration
+```
+previous_num = 0
+for i in range(10):
+    sum = previous_num + i
+    print(f'Current number {i} Previous Number {previous_num} is {sum}')
+    previous_num = i
+```
