@@ -4,13 +4,15 @@ It is used to crop the image and draw bounding boxes on image
 
 ## instalisation
 
-install PIL by using pip install PIL
+install PIL by using 
+
+       pip install Pillow
 
 Install the required dependencies using pip
 
 ## usage
 
-pip install -r requirment.txt
+    pip install -r requirment.txt
 
 ## Explanation
 
@@ -46,6 +48,10 @@ output
 
  This Python script calculates the sum of a number with its previous number in a loop and prints the result.
 
+ ## Usage
+
+ This script is used to print the current number,previous number and print the sum of two numbers in the range
+
  ## Explanation
  
     The script iterates through numbers from 0 to 9 using a for loop.
@@ -74,6 +80,43 @@ Current number 7 Previous Number 6 is 13
 Current number 8 Previous Number 7 is 15
 
 Current number 9 Previous Number 8 is 17
+
+## Webcam(video capture)
+
+This script is used to capture the video from webcam by using opencv
+
+## Installation
+
+install opencv by using pip
+    pip install opencv-python
+
+## Usage
+
+define the video capture object
+
+vid = cv2.VideoCapture(0)
+
+     pip install -r requirment.txt
+
+## Explanation
+
+
+define the video capture object
+
+vid = cv2.VideoCapture(0) 
+
+using while loop to capture the video frame
+
+ret, frame = vid.read()
+
+The webcam stream will open, and you'll see the live video displayed in a window.
+
+To exit the program, press the 'q' key. This will close the video window and terminate the script.
+
+
+
+
+
 
 
 
