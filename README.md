@@ -42,6 +42,38 @@ input
 output
 ![full_7622202030987_f306535d741c9148dc458acbbc887243_L_533](https://github.com/sahithyajadala/exper2/assets/169046012/68a74e9c-b61b-41d9-8073-a406fdc3fc23)
 
+ ## Iteration(calculation)
+
+ This Python script calculates the sum of a number with its previous number in a loop and prints the result.
+
+ ## Explanation
+ 
+    The script iterates through numbers from 0 to 9 using a for loop.
+    For each iteration, it calculates the sum of the current number and the previous number.
+    It prints the current number, the previous number, and their sum.
+
+## Output
+
+
+Current number 0 Previous Number 0 is 0
+
+Current number 1 Previous Number 0 is 1
+
+Current number 2 Previous Number 1 is 3
+
+Current number 3 Previous Number 2 is 5
+
+Current number 4 Previous Number 3 is 7
+
+Current number 5 Previous Number 4 is 9
+
+Current number 6 Previous Number 5 is 11
+
+Current number 7 Previous Number 6 is 13
+
+Current number 8 Previous Number 7 is 15
+
+Current number 9 Previous Number 8 is 17
 
 
 
