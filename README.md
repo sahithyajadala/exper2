@@ -1,3 +1,4 @@
+
 ## Bounding_box
 
 It is used to crop the image and draw bounding boxes on image
@@ -113,6 +114,12 @@ The webcam stream will open, and you'll see the live video displayed in a window
 
 To exit the program, press the 'q' key. This will close the video window and terminate the script.
 
+
+output:
+
+
+
+[Screencast from 08-05-24 12:14:43 PM IST.webm](https://github.com/sahithyajadala/exper2/assets/169046012/8d34cb1a-7747-47cb-8ab1-2ab30c0221ab)
 
 
 
