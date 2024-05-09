@@ -104,7 +104,23 @@ vid = cv2.VideoCapture(0)
 
 define the video capture object
 
-vid = cv2.VideoCapture(0) 
+cap = cv2.VideoCapture(0) 
+
+Give the width and height of the frame to capture the video
+
+width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH) + 0.5)
+height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT) + 0.5)
+
+fourcc = cv2.VideoWriter_fourcc(*'MJPG')
+OpenCV for video containers supports only the avi extension, its first version.
+
+In our system python supported the "MJPG" for video saving
+
+
+out = cv2.VideoWriter('web_video.avi', fourcc, 20.0, size)
+
+output is show in the "web_video.avi"
+
 
 using while loop to capture the video frame
 
