@@ -5,7 +5,7 @@ width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH) + 0.5)
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT) + 0.5)
 size = (width, height)
 fourcc = cv2.VideoWriter_fourcc(*'MJPG')
-out = cv2.VideoWriter('web_video.mp4', fourcc, 20.0, size)
+out = cv2.VideoWriter('web_video.avi', fourcc, 20.0, size)
 
 while(True):
     _, frame = cap.read()
