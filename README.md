@@ -118,8 +118,7 @@ To exit the program, press the 'q' key. This will close the video window and ter
 output:
 
 
-
-[Screencast from 08-05-24 12:14:43 PM IST.webm](https://github.com/sahithyajadala/exper2/assets/169046012/8d34cb1a-7747-47cb-8ab1-2ab30c0221ab)
+https://github.com/sahithyajadala/exper2/assets/169046012/28de6bb4-56df-4920-bfe1-28faa64ba882
 
 
 
